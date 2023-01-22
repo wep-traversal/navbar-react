@@ -1,0 +1,31 @@
+body{
+    font-family: 'Courier New', Courier, monospace
+}
+html{
+    margin: auto;
+    width: 90%;
+}
+.items{
+    max-width: 300px;
+    margin: auto;
+    height: 350px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+    margin: 40px 20px;
+}
+.card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-image{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+.card-info{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
